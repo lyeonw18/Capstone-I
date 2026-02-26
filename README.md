@@ -78,6 +78,14 @@ compared our framework against three fairness-aware approaches under identical p
 
 
 ## 6. Results
+### Quantitative Comparison
+
+| Model                                   | Accuracy | DPP (↓) | Individual Fairness (↓) |
+|------------------------------------------|----------|---------|--------------------------|
+| Fairness Constraints                    | 0.8103   | 0.0834  | 0.0980                   |
+| Fairness Through Awareness              | 0.8474   | 0.0291  | **0.0057**               |
+| RL Fair Classification                  | 0.8507   | 0.0362  | 0.0513                   |
+| **Proposed Ethical DQN (Ours)**         | **0.8532** | 0.1179 | 0.0416                   |
 ### Accuracy
 - All models showed comparable performance
 - Our model maintained top-tier predictive accuracy

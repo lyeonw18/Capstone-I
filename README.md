@@ -118,8 +118,8 @@ Therefore, instead of removing the feature, we conclude that future research sho
 
 
 ## 10. Repository Structure
-src/ # Core DQN & baseline models
-notebooks/ # EDA & statistical validation
-results/ # Experiment outputs & metrics
+src/
+notebooks/
+results/ 
 
 

@@ -143,6 +143,5 @@ Therefore, instead of removing the feature, we conclude that future research sho
 ```
 src/        # Core DQN & baseline models
 notebooks/  # EDA & statistical validation
-results/    # Experiment outputs & metrics
 ```
 

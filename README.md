@@ -53,9 +53,11 @@ To evaluate performance trade-offs, we first trained conventional ML models:
   3. **Individual Fairness**
    - k-NN-based similarity consistency penalty
 
-  Final integrated reward:
+  Final reward:
 
- ! Integrated Reward = (Fairness + Responsibility + Consistency) / 3
+ $$
+R = \frac{Fairness + Responsibility + Consistency}{3}
+$$
 
 ## 5. Comparative Experiments
 compared our framework against three fairness-aware approaches under identical preprocessing and dataset conditions.
@@ -116,6 +118,8 @@ Therefore, instead of removing the feature, we conclude that future research sho
 
 
 ## 10. Repository Structure
-
+src/ # Core DQN & baseline models
+notebooks/ # EDA & statistical validation
+results/ # Experiment outputs & metrics
 
 

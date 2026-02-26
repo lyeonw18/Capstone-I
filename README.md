@@ -118,8 +118,9 @@ Therefore, instead of removing the feature, we conclude that future research sho
 
 
 ## 10. Repository Structure
-src/
-notebooks/
-results/ 
-
+.
+├── src/ # Core DQN & baseline models
+├── notebooks/ # EDA & statistical validation
+├── results/ # Experiment outputs & metrics
+└── README.md # This README file
 
